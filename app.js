@@ -47,3 +47,5 @@ function randomlySelectPart(sentancePartArray) {
 };
 
 randomlySelectPart(duration);
+
+let sentance = `${randomlySelectPart(nouns)} ${randomlySelectPart(actions)} ${randomlySelectPart(duration)}${randomlySelectPart(punctuation)}`;
