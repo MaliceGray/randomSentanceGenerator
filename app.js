@@ -40,3 +40,10 @@ const duration = [
     'since Christmas',
     'until the sky fell in'
 ];
+
+function randomlySelectPart(sentancePartArray) {
+    const randomNumber = Math.floor(Math.random() * (sentancePartArray.length));
+    return sentancePartArray[randomNumber];
+};
+
+randomlySelectPart(duration);
