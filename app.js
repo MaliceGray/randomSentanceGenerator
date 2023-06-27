@@ -53,6 +53,10 @@ function randomlySelectPart(sentancePartArray) {
     return sentancePartArray[randomNumber];
 };
 
-randomlySelectPart(duration);
-
+function capiatlise(sentance) {
+    console.log(sentance.charAt(0).toUpperCase() + sentance.slice(1));  
+};
+ 
 let sentance = `${randomlySelectPart(nouns)} ${randomlySelectPart(actions)} ${randomlySelectPart(duration)}${randomlySelectPart(punctuation)}`;
+
+capiatlise(sentance);
