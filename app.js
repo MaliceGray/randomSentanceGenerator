@@ -41,6 +41,13 @@ const duration = [
     'until the sky fell in'
 ];
 
+const punctuation = [
+    '.',
+    '!',
+    '!!',
+    ' :-)'
+];
+
 function randomlySelectPart(sentancePartArray) {
     const randomNumber = Math.floor(Math.random() * (sentancePartArray.length));
     return sentancePartArray[randomNumber];
